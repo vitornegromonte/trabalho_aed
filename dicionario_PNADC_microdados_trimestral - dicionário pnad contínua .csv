@@ -1,0 +1,962 @@
+Dicionário das variáveis da PNAD contínua,,,,,,,
+Posição inicial ,Tamanho,"Código
+da
+variável",Quesito,,Categorias,,Período
+,,,nº,descrição,Tipo ,Descrição,
+Parte 1 - Identificação e Controle,,,,,,,
+1,4,Ano,,Ano de referência,,,1º tri/2012 - atual
+5,1,Trimestre,,Trimestre de referência,1 a 4,Número do trimestre (1 a 4),1º tri/2012 - atual
+6,2,UF,,Unidade da Federação,11,Rondônia,1º tri/2012 - atual
+,,,,,12,Acre,
+,,,,,13,Amazonas,
+,,,,,14,Roraima,
+,,,,,15,Pará,
+,,,,,16,Amapá,
+,,,,,17,Tocantins,
+,,,,,21,Maranhão,
+,,,,,22,Piauí,
+,,,,,23,Ceará,
+,,,,,24,Rio Grande do Norte,
+,,,,,25,Paraíba,
+,,,,,26,Pernambuco,
+,,,,,27,Alagoas,
+,,,,,28,Sergipe,
+,,,,,29,Bahia,
+,,,,,31,Minas Gerais,
+,,,,,32,Espírito Santo,
+,,,,,33,Rio de Janeiro,
+,,,,,35,São Paulo,
+,,,,,41,Paraná,
+,,,,,42,Santa Catarina,
+,,,,,43,Rio Grande do Sul,
+,,,,,50,Mato Grosso do Sul,
+,,,,,51,Mato Grosso,
+,,,,,52,Goiás,
+,,,,,53,Distrito Federal,
+8,2,Capital,,Município da Capital,11,Município de Porto Velho (RO),1º tri/2012 - atual
+,,,,,12,Município de Rio Branco (AC),
+,,,,,13,Município de Manaus (AM),
+,,,,,14,Município de Boa Vista (RR),
+,,,,,15,Município de Belém (PA),
+,,,,,16,Município de Macapá (AP),
+,,,,,17,Município de Palmas (TO),
+,,,,,21,Município de São Luís (MA),
+,,,,,22,Município de Teresina (PI),
+,,,,,23,Município de Fortaleza (CE),
+,,,,,24,Município de Natal (RN),
+,,,,,25,Município de João Pessoa (PB),
+,,,,,26,Município de Recife (PE),
+,,,,,27,Município de Maceió (AL),
+,,,,,28,Município de Aracaju (SE),
+,,,,,29,Município de Salvador (BA),
+,,,,,31,Município de Belo Horizonte (MG),
+,,,,,32,Município de Vitória (ES),
+,,,,,33,Município de Rio de Janeiro (RJ),
+,,,,,35,Município de São Paulo (SP),
+,,,,,41,Município de Curitiba (PR),
+,,,,,42,Município de Florianópolis (SC),
+,,,,,43,Município de Porto Alegre (RS),
+,,,,,50,Município de Campo Grande (MS),
+,,,,,51,Município de Cuiabá (MT),
+,,,,,52,Município de Goiânia (GO),
+,,,,,53,Município de Brasília (DF),
+10,2,RM_RIDE,,"Região Metropolitana e Região Administrativa Integrada
+de Desenvolvimento",13,Região Metropolitana de Manaus (AM),1º tri/2012 - atual
+,,,,,15,Região Metropolitana de Belém (PA),
+,,,,,16,Região Metropolitana de Macapá (AP),
+,,,,,21,"Região Metropolitana de Grande São
+Luís (MA)",
+,,,,,22,"Região Administrativa Integrada
+de Desenvolvimento da Grande Teresina (PI)",
+,,,,,23,Região Metropolitana de Fortaleza (CE),
+,,,,,24,Região Metropolitana de Natal (RN),
+,,,,,25,Região Metropolitana de João Pessoa (PB),
+,,,,,26,Região Metropolitana de Recife (PE),
+,,,,,27,Região Metropolitana de Maceió (AL),
+,,,,,28,Região Metropolitana de Aracaju (SE),
+,,,,,29,Região Metropolitana de Salvador (BA),
+,,,,,31,Região Metropolitana de Belo Horizonte (MG),
+,,,,,32,Região Metropolitana de Grande Vitória (ES),
+,,,,,33,Região Metropolitana de Rio de Janeiro (RJ),
+,,,,,35,Região Metropolitana de São Paulo (SP),
+,,,,,41,Região Metropolitana de Curitiba (PR),
+,,,,,42,Região Metropolitana de Florianópolis (SC),
+,,,,,43,Região Metropolitana de Porto Alegre (RS),
+,,,,,51,Região Metropolitana de Vale do Rio Cuiabá (MT),
+,,,,,52,Região Metropolitana de Goiânia (GO),
+12,9,UPA,,Unidade Primária de Amostragem (UPA),,UF (2) + Número Sequencial (6) + DV (1),1º tri/2012 - atual
+21,7,Estrato,,,,As 2 primeiras posições representam o código da Unidade da Federação,1º tri/2012 - atual
+28,2,V1008,,Número de seleção do domicílio,01 a 14,Número do domicílio,1º tri/2012 - atual
+30,2,V1014,,Painel,01 a 99,Grupo de amostra,1º tri/2012 - atual
+32,1,V1016,,Número da entrevista no domicílio,1 a 5,Número da entrevista (1 a 5),1º tri/2012 - atual
+33,1,V1022,,Situação do domicílio,1,Urbana,1º tri/2012 - atual
+,,,,,2,Rural,
+34,1,V1023,,Tipo de área,1,Capital,1º tri/2012 - atual
+,,,,,2,"Resto da RM (Região Metropolitana, excluindo a capital)",
+,,,,,3,"Resto da RIDE (Região Integrada de Desenvolvimento Econômico, excluindo a capital) ",
+,,,,,4,"Resto da UF  (Unidade da Federação, excluindo a região metropolitana e a RIDE)",
+35,15,V1027,,Peso do domicílio e das pessoas,6 dígitos e 8 casas decimais,Peso trimestral com correção de não entrevista sem pós estratificação pela projeção de população,1º tri/2012 - atual
+50,15,V1028,,Peso do domicílio e das pessoas,6 dígitos e 8 casas decimais,Peso trimestral com correção de não entrevista com pós estratificação pela projeção de população,1º tri/2012 - atual
+65,9,V1029,,Projeção da população,,Projeção da população do trimestre (referência: mês do meio),1º tri/2012 - atual
+74,3,posest,,Domínios de projeção,,"As 2 primeiras posições representam o código da Unidade da Federação e a última, o tipo de área. UF(2) + V1023(1)",1º tri/2012 - atual
+Parte 2 - Características Gerais dos Moradores,,,,,,,
+77,2,V2001,1,Número de pessoas no domicílio,01 a 30,,1º tri/2012 - atual
+79,2,V2003,3,Número de ordem,01 a 30,,1º tri/2012 - atual
+81,2,V2005,5,Condição no domicílio,01,Pessoa responsável pelo domicílio ,1º tri/2012 - atual
+,,,,,02,Cônjuge ou companheiro(a) de sexo diferente,
+,,,,,03,Cônjuge ou companheiro(a) do mesmo sexo,
+,,,,,04,Filho(a) do responsável e do cônjuge ,
+,,,,,05,Filho(a) somente do responsável,
+,,,,,06,Enteado(a),
+,,,,,07,Genro ou nora,
+,,,,,08,"Pai, mãe, padrasto ou madrasta",
+,,,,,09,Sogro(a),
+,,,,,10,Neto(a),
+,,,,,11,Bisneto(a) ,
+,,,,,12,Irmão ou irmã,
+,,,,,13,Avô ou avó,
+,,,,,14,Outro parente,
+,,,,,15,Agregado(a) - Não parente que não compartilha despesas,
+,,,,,16,Convivente - Não parente que compartilha despesas,
+,,,,,17,Pensionista,
+,,,,,18,Empregado(a) doméstico(a),
+,,,,,19,Parente do(a) empregado(a) doméstico(a),
+83,1,V2007,7,Sexo,1,Homem,1º tri/2012 - atual
+,,,,,2,Mulher,
+84,2,V2008,8,Dia de nascimento,01 a 31,Dia de nascimento ,1º tri/2012 - atual
+,,,,,99,Não informado,
+86,2,V20081,8,Mês de nascimento,01 a 12,Mês,1º tri/2012 - atual
+,,,,,99,Não informado,
+88,4,V20082,8,Ano de nascimento,Ano de referência menos 130 até ano de referência,Ano,1º tri/2012 - atual
+,,,,,9999,Não informado,
+92,3,V2009,9,Idade do morador na data de referência,0 a 130,Idade (em anos),1º tri/2012 - atual
+95,1,V2010,10,Cor ou raça,1,Branca,1º tri/2012 - atual
+,,,,,2,Preta,
+,,,,,3,Amarela,
+,,,,,4,Parda ,
+,,,,,5,Indígena,
+,,,,,9,Ignorado,
+Parte 3 - Características de educação para os moradores de 5 anos ou mais de idade,,,,,,,
+96,1,V3001,1,... sabe ler e escrever?,1,Sim,1º tri/2012 - atual
+,,,,,2,Não ,
+,,,,,,Não aplicável,
+97,1,V3002,2,... frequenta escola?,1,Sim,1º tri/2012 - atual
+,,,,,2,Não ,
+,,,,,,Não aplicável,
+98,1,V3002A,2A,A escola que ... frequenta é de,1,Rede privada,4º tri/2015 - atual
+,,,,,2,Rede pública,
+,,,,,,Não aplicável,
+99,2,V3003,3,Qual é o curso que ... frequenta?,01,Pré-escolar (maternal e jardim de infância),1º tri/2012 - 3º tri/2015
+,,,,,02,Alfabetização de jovens e adultos,
+,,,,,03,Regular do ensino fundamental ,
+,,,,,04,Educação de jovens e adultos (EJA) ou supletivo do ensino fundamental,
+,,,,,05,Regular do ensino médio ,
+,,,,,06,Educação de jovens e adultos (EJA) ou supletivo do ensino médio,
+,,,,,07,Superior - graduação,
+,,,,,08,Mestrado,
+,,,,,09,Doutorado,
+,,,,,,Não aplicável,
+101,2,V3003A,3A,Qual é o curso que ... frequenta?,01,Creche (disponível apenas no questionário anual de educação),4º tri/2015 - atual
+,,,,,02,Pré-escola,
+,,,,,03,Alfabetização de jovens e adultos,
+,,,,,04,Regular do ensino fundamental ,
+,,,,,05,Educação de jovens e adultos (EJA) do ensino fundamental,
+,,,,,06,Regular do ensino médio ,
+,,,,,07,Educação de jovens e adultos (EJA) do ensino médio,
+,,,,,08,Superior - graduação,
+,,,,,09,Especialização de nível superior,
+,,,,,10,Mestrado,
+,,,,,11,Doutorado,
+,,,,,,Não aplicável,
+103,1,V3004,4,A duração deste curso que ... frequenta é de:,1,8 anos,1º tri/2012 - 4º tri/2017
+,,,,,2,9 anos,
+,,,,,,Não aplicável,
+104,1,V3005,5,Este curso que ... frequenta é seriado?,1,Sim,1º tri/2012 - 3º tri/2015
+,,,,,2,Não ,
+,,,,,,Não aplicável,
+105,1,V3005A,5A,Esse curso que .... frequenta é organizado em:,1,Períodos semestrais,4º tri/2015 - atual
+,,,,,2,Anos,
+,,,,,3,Outra forma,
+,,,,,,Não aplicável,
+106,2,V3006,6,Qual é o ano/série/semestre que ... frequenta?,01,Primeira (o),1º tri/2012 - atual
+,,,,,02,Segunda (o),
+,,,,,03,Terceira (o),
+,,,,,04,Quarta (o),
+,,,,,05,Quinta (o),
+,,,,,06,Sexta (o),
+,,,,,07,Sétima (o),
+,,,,,08,Oitava (o),
+,,,,,09,Nona (o),
+,,,,,10,Décimo,
+,,,,,11,Décimo primeiro,
+,,,,,12,Décimo segundo,
+,,,,,13,Curso não classificado em séries ou anos,
+,,,,,,Não aplicável,
+108,1,V3006A,6a,Qual é a etapa do ensino fundamental que ... frequenta?,1,Anos iniciais (primeiro segmento),1º tri/2018 - atual
+,,,,,2,Anos finais (segundo segmento),
+,,,,,,Não aplicável,
+109,1,V3007,7,... já concluiu algum outro curso de graduação?,1,Sim,1º tri/2012 - atual
+,,,,,2,Não ,
+,,,,,,Não aplicável,
+110,1,V3008,8,Anteriormente ... frequentou escola?,1,Sim,1º tri/2012 - atual
+,,,,,2,Não ,
+,,,,,,Não aplicável,
+111,2,V3009,9,Qual foi o curso mais elevado que ... frequentou anteriormente?,01,Classe de alfabetização - CA,1º tri/2012 - 3º tri/2015
+,,,,,02,Alfabetização de jovens e adultos,
+,,,,,03,Antigo primário (elementar),
+,,,,,04,Antigo ginásio (médio 1º ciclo),
+,,,,,05,Regular do ensino fundamental ou do 1º grau,
+,,,,,06,Educação de jovens e adultos (EJA) ou supletivo do ensino fundamental,
+,,,,,07,"Antigo científico, clássico, etc. (médio 2º ciclo)",
+,,,,,08,Regular do ensino médio ou do 2º grau,
+,,,,,09,Educação de jovens e adultos (EJA) ou supletivo do ensino médio,
+,,,,,10,Superior - graduação,
+,,,,,11,Mestrado,
+,,,,,12,Doutorado,
+,,,,,,Não aplicável,
+113,2,V3009A,9A,Qual foi o curso mais elevado que ... frequentou anteriormente?,01,Creche (disponível apenas no questionário anual de educação),4º tri/2015 - atual
+,,,,,02,Pré-escola,
+,,,,,03,Classe de alfabetização - CA,
+,,,,,04,Alfabetização de jovens e adultos,
+,,,,,05,Antigo primário (elementar),
+,,,,,06,Antigo ginásio (médio 1º ciclo),
+,,,,,07,Regular do ensino fundamental ou do 1º grau,
+,,,,,08,Educação de jovens e adultos (EJA) ou supletivo do 1º grau,
+,,,,,09,"Antigo científico, clássico, etc. (médio 2º ciclo)",
+,,,,,10,Regular do ensino médio óu do 2º grau,
+,,,,,11,Educação de jovens e adultos (EJA) ou supletivo do 2º grau,
+,,,,,12,Superior - graduação,
+,,,,,13,Especialização de nível superior,
+,,,,,14,Mestrado,
+,,,,,15,Doutorado,
+,,,,,,Não aplicável,
+115,1,V3010,10,A duração deste curso que ... frequentou anteriormente era de:,1,8 anos,1º tri/2012 - atual
+,,,,,2,9 anos,
+,,,,,,Não aplicável,
+116,1,V3011,11,Este curso que ... frequentou anteriormente era seriado?,1,Sim,1º tri/2012 - 3º tri/2015
+,,,,,2,Não ,
+,,,,,,Não aplicável,
+117,1,V3011A,11A,Esse curso que .... frequentou era organizado em:,1,Períodos semestrais,4º tri/2015 - atual
+,,,,,2,Anos,
+,,,,,3,Outra forma,
+,,,,,,Não aplicável,
+118,1,V3012,12,"... concluiu com aprovação, pelo menos a primeira série deste curso que frequentou anteriormente?",1,Concluiu,1º tri/2012 - atual
+,,,,,2,Não concluiu,
+,,,,,3,Curso não classificado em séries ou anos,
+,,,,,,Não aplicável,
+119,2,V3013,13,"Qual foi o último ano/série/semestre que ... concluiu com aprovação, neste curso que frequentou anteriormente",01,Primeira (o),1º tri/2012 - atual
+,,,,,02,Segunda (o),
+,,,,,03,Terceira (o),
+,,,,,04,Quarta (o),
+,,,,,05,Quinta (o),
+,,,,,06,Sexta (o),
+,,,,,07,Sétima (o),
+,,,,,08,Oitava (o),
+,,,,,09,Nona (o),
+,,,,,10,Décimo,
+,,,,,11,Décimo primeiro,
+,,,,,12,Décimo segundo,
+,,,,,,Não aplicável,
+121,1,V3013A,13a,Qual foi a etapa de ensino fundamental que ... frequentou?,1,Anos iniciais (primeiro segmento),1º tri/2018 - atual
+,,,,,2,Anos finais (segundo segmento),
+,,,,,,Não aplicável,
+122,1,V3013B,13b,... Concluiu os anos iniciais deste curso que frequentou anteriormente?,1,Sim,1º tri/2018 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+123,1,V3014,14,... concluiu este curso que frequentou anteriormente,1,Sim,1º tri/2012 - atual
+,,,,,2,Não ,
+,,,,,,Não aplicável,
+Parte 4 - Características de trabalho das pessoas de 14 anos ou mais de idade,,,,,,,
+124,1,V4001,1,"Na semana de ... a ... (semana de referência), ... trabalhou ou estagiou, durante pelo menos 1 hora, em alguma atividade remunerada em dinheiro?",1,Sim,1º tri/2012 - atual
+,,,,,2,Não ,
+,,,,,,Não aplicável,
+125,1,V4002,2,"Na semana de ... a ... (semana de referência), ... trabalhou ou estagiou, durante pelo menos 1 hora, em alguma atividade remunerada em produtos, mercadorias, moradia, alimentação, etc.?",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+126,1,V4003,3,"Na semana de ... a ... (semana de referência), ... fez algum bico ou trabalhou em alguma atividade ocasional remunerada durante pelo menos 1 hora?  ",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+127,1,V4004,4,"Na semana de ... a ... (semana de referência), ... ajudou durante pelo menos 1 hora, sem receber pagamento, no trabalho remunerado de algum morador do domicílio ou de parente?",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+128,1,V4005,5,"Na semana de ... a ... (semana de referência), ... tinha algum trabalho remunerado do qual estava temporariamente afastado?",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+129,1,V4006,6,"Na semana de ... a .... (semana de referência), por que motivo ... estava afastado desse trabalho?",1,"Férias, folga ou jornada de trabalho variável ",1º tri/2012 - 3º tri/2015
+,,,,,2,Licença maternidade,
+,,,,,3,Licença remunerada por motivo de doença ou acidente da própria pessoa,
+,,,,,4,"Outro tipo de licença remunerada (estudo, paternidade, casamento, licença prêmio, etc.) ",
+,,,,,5,"Afastamento do próprio negócio/empresa por motivo de gestação, doença, acidente, etc., sem ser remunerado por instituto de previdência",
+,,,,,6,"Fatores ocasionais (tempo, paralisação nos serviços de transportes, etc.)",
+,,,,,7,Greve ou paralisação,
+,,,,,8,Outro motivo,
+,,,,,,Não aplicável,
+130,1,V4006A,6A,"Na semana de ... a .... (semana de referência), por que motivo ... estava afastado desse trabalho?",1,"Férias, folga ou jornada de trabalho variável ",4º tri/2015 - atual
+,,,,,2,Licença maternidade ou paternidade,
+,,,,,3,Licença remunerada por motivo de saúde ou acidente da própria pessoa,
+,,,,,4,"Outro tipo de licença remunerada (estudo, casamento, licença prêmio, etc.) ",
+,,,,,5,"Afastamento do próprio negócio/empresa por motivo de gestação, doença, acidente, etc., sem ser remunerado por instituto de previdência",
+,,,,,6,"Fatores ocasionais (tempo, paralisação nos serviços de transportes, etc.)",
+,,,,,7,Outro motivo,
+,,,,,,Não aplicável,
+131,1,V4007,7,"Durante o tempo de afastamento, ... continuou a receber ao menos uma parte do pagamento?",1,Sim,1º tri/2012 - 3º tri/2015
+,,,,,2,Não,
+,,,,,,Não aplicável,
+132,1,V4008,8,"Em .../.../...(último dia da semana de referência), fazia quanto tempo que ... estava afastado desse trabalho?",1,Menos de 1 mês ,1º tri/2012 - atual
+,,,,,2,De 1 mês a menos de 1 ano ,
+,,,,,3,De 1 ano a menos de 2 anos,
+,,,,,4,2 anos ou mais ,
+,,,,,,Não aplicável,
+133,2,V40081,8, Tempo que estava afastado (De 1 mês a menos de 1 ano) ,01 a 11,01 a 11 meses,1º tri/2012 - atual
+,,,,,,Não aplicável,
+135,2,V40082,8,Tempo que estava afastado (De 1 ano a menos de 2 anos) ,00 a 11,00 a 11 meses,1º tri/2012 - atual
+,,,,,,Não aplicável,
+137,2,V40083,8,Tempo que estava afastado (de 02 anos a 98 anos) ,02 a 98,02 anos ou mais ,1º tri/2012 - atual
+,,,,,,Não aplicável,
+ 2 - Pessoas Ocupadas,,,,,,,
+139,1,V4009,9,Quantos trabalhos ... tinha na semana de ... a ... (semana de referência ?,1,Um ,1º tri/2012 - atual
+,,,,,2,Dois,
+,,,,,3,Três ou mais,
+,,,,,,Não aplicável,
+140,4,V4010,10,Código da ocupação (cargo ou função),código,"Ver  ""Composição dos Grupamentos Ocupacionais"" e ""Classificação de Ocupações para as Pesquisas Domiciliares – COD"" em ANEXO de Notas Metodológicas",1º tri/2012 - atual
+,,,,,,Não aplicável,
+144,1,V4012,12,"Nesse trabalho, ... era: ",1,Trabalhador doméstico,1º tri/2012 - atual
+,,,,,2,"Militar do exército, da marinha, da aeronáutica, da polícia militar ou do corpo de bombeiros militar",
+,,,,,3,Empregado do setor privado,
+,,,,,4,Empregado do setor público (inclusive empresas de economia mista),
+,,,,,5,Empregador,
+,,,,,6,Conta própria,
+,,,,,7,Trabalhador familiar não remunerado,
+,,,,,,Não aplicável,
+145,1,V40121,12,Trabalhador não remunerado,1,Em ajuda a conta própria ou empregador ,1º tri/2012 - atual
+,,,,,2,Em ajuda a empregado ,
+,,,,,3,Em ajuda a trabalhador doméstico,
+,,,,,,Não aplicável,
+146,5,V4013,13,Código da principal atividade desse negócio/empresa ,código,"Ver ""Composição dos Grupamentos de Atividade"" e “Relação de Códigos de Atividades” da CNAE-Domiciliar  em ANEXO de Notas Metodológicas",1º tri/2012 - atual
+,,,,,,Não aplicável,
+151,1,V40132,13,Qual a seção da atividade?,1,"Agricultura, pecuária silvicultura, exploração florestal, pesca ou aquicultura",1º tri/2012 - 3º tri/2015
+,,,,,2,"Outra atividade, inclusive as atividades de apoio à agricultura, pecuária, silvicultura, exploração florestal, pesca ou aquicultura. ",
+,,,,,,Não aplicável,
+152,1,V40132A,13,Qual a seção da atividade?,1,"Agricultura, pecuária silvicultura, exploração florestal, pesca ou aquicultura e atividades de apoio à agricultura, pecuária, silvicultura, exploração florestal, pesca ou aquicultura. ",4º tri/2015 - atual
+,,,,,2,Outra atividade,
+,,,,,,Não aplicável,
+153,1,V4014,14,Esse trabalho era na área:,1,Federal,1º tri/2012 - atual
+,,,,,2,Estadual,
+,,,,,3,Municipal,
+,,,,,,Não aplicável,
+154,1,V4015,15,"Na semana de ... a ... (semana de referência), ... teve ajuda, nesse trabalho, de pelo menos um trabalhador não remunerado que era membro do domicílio ou parente?",1,Sim,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+155,1,V40151,15,Quantos trabalhadores não remunerados ?,1,1 a 5 trabalhadores não remunerados ,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,2,6 a 10 trabalhadores não remunerados ,
+,,,,,3,11 ou mais trabalhadores não remunerados ,
+,,,,,,Não aplicável,
+156,1,V401511,15,1 a 5 trabalhadores não remunerados,1 a 5,1 a 5 trabalhadores não remunerados,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,,Não aplicável,
+157,2,V401512,15,6 a 10 trabalhadores não remunerados,06 a 10,06 a 10 trabalhadores não remunerados,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,,Não aplicável,
+159,1,V4016,16,"Na semana de ... a ... (semana de referência), quantos empregados trabalhavam nesse negócio/empresa que ... tinha ?",1,1 a 5 empregados ,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,2,6 a 10 empregados,
+,,,,,3,11 a 50 empregados,
+,,,,,4,51 ou mais empregados,
+,,,,,,Não aplicável,
+160,1,V40161,16,1 a 5 empregados,1 a 5,1 a 5 empregados ,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,,Não aplicável,
+161,2,V40162,16,6 a 10 empregados,06 a 10,06 a 10 empregados,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,,Não aplicável,
+163,2,V40163,16,11 a 50 empregados,11 a 50,11 a 50 empregados,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,,Não aplicável,
+165,1,V4017,17,"Na semana de ... a ... (semana de  referência), ... tinha pelo menos um sócio que trabalhava nesse negócio/empresa ?",1,Sim,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+166,1,V40171,17,Quantos?,1,1 a 5 sócios,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,2,6 ou mais sócios,
+,,,,,,Não aplicável,
+167,1,V401711,17,1 a 5 sócios, 1 a 5,1 a 5 sócios ,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,,Não aplicável,
+168,1,V4018,18,"Na semana de ... a ... (semana de referência), contando com ... , quantas pessoas trabalhavam nesse negócio/empresa ?",1,1 a 5 pessoas,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,2,6 a 10 pessoas ,
+,,,,,3,11 a 50 pessoas,
+,,,,,4,51 ou mais pessoas,
+,,,,,,Não aplicável,
+169,1,V40181,18,1 a 5 pessoas,1 a 5,1 a 5 pessoas,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,,Não aplicável,
+170,2,V40182,18,6 a 10 pessoas,06 a 10,06 a 10 pessoas,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,,Não aplicável,
+172,2,V40183,18,11 a 50 pessoas,11 a 50,11 a 50 pessoas,1º tri/2012 - 3ºtri2015 e 3º tri/2016 - atual
+,,,,,,Não aplicável,
+174,1,V4019,19,Esse negócio/empresa era registrado no Cadastro Nacional da Pessoa Jurídica - CNPJ?,1,Sim,4º tri/2015 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+175,1,V4020,20,Em que tipo de local funcionava esse negócio/empresa ?,1,"Em loja, escritório, galpão, etc.",1º tri/2018 - atual
+,,,,,2,"Em fazenda, sítio, granja, chácara, etc.",
+,,,,,3,Não tinha estabelecimento para funcionar,
+,,,,,,Não aplicável,
+176,1,V4021,21,... exercia normalmente o trabalho em estabelecimento desse negócio/empresa ?,1,Sim,1º tri/2018 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+177,1,V4022,22,Então onde ... exercia normalmente esse trabalho ?,1,Em estabelecimento de outro négocio/empresa,1º tri/2018 - atual
+,,,,,2,"Em local designado pelo empregador, cliente ou freguês",
+,,,,,3,"Em domicílio de empregador, patrão, sócio ou freguês",
+,,,,,4,"No domicílio de residência, em local exclusivo para o desempenho da atividade",
+,,,,,5,"No domicílio de residência, sem local exclusivo para o desempenho da atividade",
+,,,,,6,"Em veículo automotor (táxi, ônibus, caminhão, automóvel, embarcação, etc.)",
+,,,,,7,"Em via ou área pública (rua, rio, manguezal, mata pública, praça, praia etc.)",
+,,,,,8,"Em outro local, especifique",
+,,,,,,Não aplicável,
+178,1,V4024,24,No período de ... a ... (período de referência de 30 dias) ... prestava serviço doméstico em mais de um domicílio ?,1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+179,1,V4025,25,"Nesse trabalho, ... era contratado(a) como empregado temporário ?",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+180,1,V4026,26,"Na semana de ... a ... (semana de referência), ... era contratado(a) somente por pessoa responsável pelo negócio/empresa em que trabalhava ?",1,Sim,1º tri/2017 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+181,1,V4027,27,"Na semana de ... a ... (semana de referência) era contratado(a) somente por intermediário (empresa empreiteira, empreiteiro, ""gato"", etc.) ?",1,Sim,1º tri/2017 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+182,1,V4028,28,"Nesse trabalho, ... era servidor público estatutário (federal, estadual ou municipal) ?",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+183,1,V4029,29,"Nesse trabalho, ... tinha carteira de trabalho assinada ?",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+184,1,V4032,32,Era contribuinte de instituto de previdência por esse trabalho ?,1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+185,1,V4033,33,Qual era o rendimento bruto mensal que ... recebia/fazia  normalmente nesse trabalho? (variável auxiliar),1,Indica se o quesito foi respondido,1º tri/2012 - atual
+,,,,,,Não aplicável,
+186,1,V40331,33,Recebia/fazia normalmente nesse trabalho rendimento/retirada em dinheiro?,1,Em dinheiro,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+187,1,V403311,33,Número da faixa do rendimento/retirada em dinheiro,1,"1 a [0,5SM]",1º tri/2012 - atual
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+188,8,V403312,33,Qual era o rendimento bruto/retirada mensal que ... recebia/fazia normalmente nesse trabalho ? (valor em dinheiro),valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+196,1,V40332,33,Recebia/fazia normalmente nesse trabalho rendimento/retirada em produtos e mercadorias ?,2,Em produtos ou mercadorias,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+197,1,V403321,33,Número da faixa do rendimento/retirada em produtos e mercadorias,1,"1 a [0,5SM]",1º tri/2012 - atual
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+198,8,V403322,33,Qual era o rendimento bruto/retirada mensal que ... recebia/fazia normalmente nesse trabalho ? (valor estimado dos produtos ou mercadorias),valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+206,1,V40333,33,Recebia/fazia normalmente nesse trabalho rendimento/retirada somente em benefícios ?,3,Em benefícios,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+207,1,V403331,33,Tipo de rendimento/retirada  em benefícios que recebia/fazia nesse trabalho,1,"Pessoa recebendo somente em beneficios, exceto aprendizado",2º tri/2016 - atual
+,,,,,2,Aprendiz ou estagiário recebendo em aprendizado e outros beneficios,
+,,,,,3,Aprendiz ou estagiário recebendo somente em aprendizado,
+,,,,,,Não aplicável,
+208,1,V4034,34,"Qual foi o rendimento bruto que ... recebeu/fez  nesse trabalho, no mês de referência? (variável auxiliar)",1,Indica se o quesito foi respondido,1º tri/2012 - atual
+,,,,,,Não aplicável,
+209,1,V40341,34,Recebeu/fez nesse trabalho rendimento/retirada em dinheiro no mês de referência,1,Em dinheiro,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+210,1,V403411,34,Número da faixa do rendimento/retirada em dinheiro,0,0,1º tri/2012 - atual
+,,,,,1,"1 a [0,5SM]",
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+211,8,V403412,34,"Qual foi o rendimento bruto/retirada que ... recebeu/fez nesse trabalho, no mês de referência ? (valor em dinheiro)",valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+219,1,V40342,34,"Recebeu/fez nesse trabalho no mês de referencia, rendimento/retirada em produtos e mercadorias",2,Em produtos ou mercadorias,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+220,1,V403421,34,Número da faixa do rendimento/retirada em produtos e mercadorias,0,0,1º tri/2012 - atual
+,,,,,1,"1 a [0,5SM]",
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+221,8,V403422,34,"Qual foi o rendimento bruto/retirada que ... recebeu/fez nesse trabalho, no mês de referência ? (valor estimado dos produtos ou mercadorias)",valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+229,3,V4039,39,"Quantas horas ... trabalhava normalmente, por semana, nesse trabalho principal?",001 a 120,Horas,1º tri/2012 - atual
+,,,,,,Não aplicável,
+232,3,V4039C,39C,Quantas horas ... trabalhou efetivamente na semana de referência nesse trabalho pincipal?,000 a 120,Horas,4º tri/2015 - atual
+,,,,,,Não aplicável,
+235,1,V4040,40,Até o dia ... (último dia da semana de referência) fazia quanto tempo que ... estava nesse trabalho ?,1,Menos de 1 mês ,1º tri/2012 - atual
+,,,,,2,De 1 mês a menos de 1 ano ,
+,,,,,3,De 1 ano a menos de 2 anos ,
+,,,,,4,2 anos ou mais ,
+,,,,,,Não aplicável,
+236,2,V40401,40,Fazia quanto tempo que estava nesse trabalho (de 1 mês a menos de 1 ano),01 a 11,01 mês a 11 meses,1º tri/2012 - atual
+,,,,,,Não aplicável,
+238,2,V40402,40,Fazia quanto tempo que estava nesse trabalho (de 1 ano a menos de 2 anos),00 a 11,00 a 11 meses,1º tri/2012 - atual
+,,,,,,Não aplicável,
+240,2,V40403,40,Fazia quanto tempo estava nesse trabalho (2 anos ou mais),02 a 98,2 anos ou mais,1º tri/2012 - atual
+,,,,,,Não aplicável,
+242,4,V4041,41,Código da ocupação (cargo ou função),código,"Ver ""Classificação nacional de ocupações para pesquisas domiciliares (COD) 2010""",1º tri/2012 - atual
+,,,,,,Não aplicável,
+246,1,V4043,43,"Nesse trabalho secundário, ... era ",1,Trabalhador doméstico,1º tri/2012 - atual
+,,,,,2,"Militar do exército, da marinha, da aeronáutica, da polícia militar ou do corpo de bombeiros militar",
+,,,,,3,Empregado do setor privado,
+,,,,,4,Empregado do setor público (inclusive empresas de economia mista),
+,,,,,5,Empregador,
+,,,,,6,Conta própria,
+,,,,,7,Trabalhador não remunerado em ajuda a membro do domicílio ou parente,
+,,,,,,Não aplicável,
+247,1,V40431,43,Trabalhador familiar não remunerado,1,Em ajuda a conta própria ou empregador ,1º tri/2012 - atual
+,,,,,2,Em ajuda a empregado ,
+,,,,,3,Em ajuda a trabalhador doméstico,
+,,,,,,Não aplicável,
+248,5,V4044,44,Código da principal atividade desse negócio/empresa,código,"Ver ""Composição dos Grupamentos de Atividade"" e “Relação de Códigos de Atividades” da CNAE-Domiciliar ",1º tri/2012 - atual
+,,,,,,Não aplicável,
+253,1,V4045,45,Esse trabalho era na área,1,Federal,1º tri/2012 - atual
+,,,,,2,Estadual,
+,,,,,3,Municipal,
+,,,,,,Não aplicável,
+254,1,V4046,46,Esse negócio/empresa era registrado no Cadastro Nacional da Pessoa Jurídica - CNPJ?,1,Sim,4º tri/2015 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+255,1,V4047,47,"Nesse trabalho secundário era funcionário público estatutário (federal, estadual ou municipal)?",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+256,1,V4048,48,Nesse trabalho secundário tinha carteira de trabalho assinada?,1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+257,1,V4049,49,Era contribuinte de instituto de previdência por esse trabalho secundário?,1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+258,1,V4050,50,Qual era o rendimento bruto mensal que ... recebia/fazia  normalmente nesse trabalho secundário? (variável auxiliar),1,Indica se o quesito foi respondido,1º tri/2012 - atual
+,,,,,,Não aplicável,
+259,1,V40501,50,Recebia/fazia normalmente nesse trabalho secundário rendimento/retirada em dinheiro,1,Em dinheiro,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+260,1,V405011,50,Número da faixa do rendimento/retirada em dinheiro,1,"1 a [0,5SM]",1º tri/2012 - atual
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+261,8,V405012,50,Valor em dinheiro do rendimento mensal que recebia normalmente nesse trabalho secundário,valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+269,1,V40502,50,Recebia/fazia normalmente nesse trabalho secundário rendimento/retirada em produtos e mercadorias,2,Em produtos ou mercadorias,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+270,1,V405021,50,Número da faixa do rendimento/retirada em produtos e mercadorias,1,"1 a [0,5SM]",1º tri/2012 - atual
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+271,8,V405022,50,Valor estimado dos produtos e mercadorias que recebia normalmente nesse trabalho secundário,valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+279,1,V40503,50,Recebia/fazia normalmente nesse trabalho secundário rendimento/retirada somente em benefícios,3,Em benefícios,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+280,1,V405031,50,Tipo de rendimento/retirada  em benefícios que recebia/fazia nesse trabalho secundário,1,"Pessoa recebendo somente em beneficios, exceto aprendizado",2º tri/2016 - atual
+,,,,,2,Aprendiz ou estagiário recebendo em aprendizado e outros beneficios,
+,,,,,3,Aprendiz ou estagiário recebendo somente em aprendizado,
+,,,,,,Não aplicável,
+281,1,V4051,51,"Qual foi o rendimento bruto que ... recebeu/fez  nesse trabalho secundário, no mês de referência? (variável auxiliar)",1,Indica se o quesito foi respondido,1º tri/2012 - atual
+,,,,,,Não aplicável,
+282,1,V40511,51,Recebeu/fez nesse trabalho secundário rendimento/retirada em dinheiro no mês de referência,1,Em dinheiro,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+283,1,V405111,51,Número da faixa do rendimento/retirada em dinheiro,0,0,1º tri/2012 - atual
+,,,,,1,"1 a [0,5SM]",
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+284,8,V405112,51,Valor em dinheiro do rendimento mensal que recebeu nesse trabalho secundário no mês de referência,valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+292,1,V40512,51,"Recebeu/fez nesse trabalho secundário no mês de referencia, rendimento/retirada em produtos e mercadorias",2,Produtos ou mercadorias,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+293,1,V405121,51,Número da faixa do rendimento/retirada em produtos e mercadorias,0,0,1º tri/2012 - atual
+,,,,,1,"1 a [0,5SM]",
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+294,8,V405122,51,Valor estimado dos produtos e mercadorias que recebia recebeu nesse trabalho secundário no mês de referência,valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+302,3,V4056,56,"Quantas horas ... trabalhava normalmente, por semana, nesse trabalho secundário?",001 a 120 ,Horas,1º tri/2012 - atual
+,,,,,,Não aplicável,
+305,3,V4056C,56C,Quantas horas ... trabalhou efetivamente na semana de referência nesse trabalho secundário? ,000 a 120,Horas,4º tri/2015 - atual
+,,,,,,Não aplicável,
+308,1,V4057,57,Era contribuinte de instituto de previdência por esse(s) outro(s) trabalho(s)?,1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+309,1,V4058,58,Qual era o rendimento bruto mensal que ... recebia/fazia  normalmente nesse(s) outro(s) trabalho(s)? (variável auxiliar),1,Indica se o quesito foi respondido,1º tri/2012 - atual
+,,,,,,Não aplicável,
+310,1,V40581,58,Recebia/fazia normalmente nesse(s) outro(s) trabalho(s)  rendimento/retirada em dinheiro,1,Em dinheiro,1º tri/2012 - atual
+,,,,, ,Não ou não aplicável,
+311,1,V405811,58,Número da faixa do rendimento/retirada em dinheiro,1,"1 a [0,5SM]",1º tri/2012 - atual
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+312,8,V405812,58,Valor em dinheiro do rendimento mensal que recebia normalmente nesse(s) outro(s) trabalho(s) ,valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+320,1,V40582,58,Recebia/fazia normalmente nesse(s) outro(s) trabalho(s)  rendimento/retirada em produtos e mercadorias,2,Em produtos ou mercadorias,1º tri/2012 - atual
+,,,,,,Não aplicável,
+321,1,V405821,58,Número da faixa do rendimento/retirada em produtos e mercadorias,1,"1 a [0,5SM]",1º tri/2012 - atual
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+322,8,V405822,58,Valor estimado do produtos e mercadorias que recebia normalmente nesse(s) outro(s) trabalho(s) ,valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+330,1,V40583,58,Recebia/fazia normalmente nesse(s) outro(s) trabalho(s) rendimento/retirada somente em benefícios,3,Em benefícios,1º tri/2012 - atual
+,,,,,,Não aplicável,
+331,1,V405831,58,Tipo de rendimento/retirada  em benefícios que recebia/fazia nesse(s) outro(s) trabalho(s),1,"Pessoa recebendo somente em beneficios, exceto aprendizado",2º tri/2016 - atual
+,,,,,2,Aprendiz ou estagiário recebendo em aprendizado e outros beneficios,
+,,,,,3,Aprendiz ou estagiário recebendo somente em aprendizado,
+,,,,,,Não aplicável,
+332,1,V40584,58,Não remunerado nesse(s) outro(s) trabalho(s) ,4,Não remunerado,1º tri/2012 - atual
+,,,,,,Não aplicável,
+333,1,V4059,59,"Qual foi o rendimento bruto que ... recebeu/fez  nesse(s) outro(s) trabalho(s), no mês de referência? (variável auxiliar)",1,Indica se o quesito foi respondido,1º tri/2012 - atual
+,,,,,,Não aplicável,
+334,1,V40591,59,Recebeu/fez nesse(s) outro(s) trabalho(s) rendimento/retirada em dinheiro no mês de referência,1,Em dinheiro,1º tri/2012 - atual
+,,,,,,Não ou não aplicável,
+335,1,V405911,59,Número da faixa do rendimento/retirada em dinheiro,0,0,1º tri/2012 - atual
+,,,,,1,"1 a [0,5SM]",
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+336,8,V405912,59,Valor em dinheiro do rendimento mensal que recebeu nesse(s) outro(s) trabalho(s) no mês de referência,valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+344,1,V40592,59,"Recebeu/fez nesse(s) outro(s) trabalhos no mês de referencia, rendimento/retirada em produtos e mercadorias",2,Em produtos ou mercadorias,1º tri/2012 - atual
+,,,,,,Não aplicável,
+345,1,V405921,59,Número da faixa do rendimento/retirada em produtos e mercadorias,0,0,1º tri/2012 - atual
+,,,,,1,"1 a [0,5SM]",
+,,,,,2,"[0,5SM]+1 a [1SM]",
+,,,,,3,[1SM]+1 a [2SM],
+,,,,,4,[2SM]+1 a [3SM],
+,,,,,5,[3SM]+1 a [5SM],
+,,,,,6,[5SM]+1 a [10SM],
+,,,,,7,[10SM]+1 a [20SM],
+,,,,,8,[20SM]+1 ou mais,
+,,,,,,Não aplicável,
+346,8,V405922,59,Valor estimado do produtos e mercadorias que recebia normalmente nesse(s) outro(s) trabalho(s) no mês de referência,valor em reais,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+354,3,V4062,62,"Quantas horas ... trabalhava normalmente, por semana, nesse(s) outro(s) trabalho(s)? ",001 a 120,Horas,1º tri/2012 - atual
+,,,,,,Não aplicável,
+357,3,V4062C,62C,Quantas horas ... trabalhou efetivamente na semana de referência nesses outros trabalhos? ,000 a 120,Horas,4º tri/2015 - atual
+,,,,,,Não aplicável,
+360,1,V4063,63,"... gostaria de trabalhar mais horas do que as ... (soma das horas declaradas nas variáveis VD4031, VD4032, VD4033) horas que efetivamente trabalhou no(s) trabalho(s) que tinha na semana de referência?",1,Sim,1º tri/2012 - 3º tri/2015
+,,,,,2,Não,
+,,,,,,Não aplicável,
+361,1,V4063A,63A,"... gostaria de trabalhar mais horas do que as ... (soma das horas declaradas nos quesitos 39, 56 e 62) horas que normalmente trabalhava no(s) trabalho(s) que tinha na semana de referência?",1,Sim,4º tri/2015 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+362,1,V4064,64,"No mês de referência, ... estaria disponível para trabalhar mais do que as (soma das horas declaradas nas variáveis VD4031, VD4032, VD4033) horas que efetivamente trabalhou no(s) trabalho(s) que tinha na semana de referência?",1,Sim,1º tri/2012 - 3º tri/2015
+,,,,,2,Não,
+,,,,,,Não aplicável,
+363,1,V4064A,64A,"No mês de referência, ... estaria disponível para trabalhar mais do que as (soma das horas declaradas nos quesitos 39, 56 e 62) horas que normalmente trabalhava  no(s) trabalho(s) que tinha na semana de referência?",1,Sim,4º tri/2015 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+3 - Pessoas não ocupadas,,,,,,,
+364,1,V4071,71,"No período de ... a ... (período de referência de 30 dias), ... Tomou alguma providência para conseguir trabalho, seja um emprego ou um negócio próprio? ",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+365,2,V4072,72,"No período de ... a ... (período de referência de 30 dias), qual foi a principal providência que ... tomou para conseguir trabalho?",01,"Entrou diretamente em contato com empregador (em fábrica, fazenda, mercado, loja ou outro local de trabalho)",1º tri/2012 - 3º tri/2015
+,,,,,02,Fez ou inscreveu-se em concurso,
+,,,,,03,Consultou agência privada ou sindicato ,
+,,,,,04,"Consultou agência municipal, estadual ou o Sistema Nacional de Emprego (SINE) ",
+,,,,,05,Colocou ou respondeu anúncio,
+,,,,,06,"Consultou parente, amigo ou colega",
+,,,,,07,Buscou ajuda financeira para iniciar o próprio negócio,
+,,,,,08,"Procurou local, equipamento ou maquinário para iniciar o próprio negócio ",
+,,,,,09,Solicitou registro ou licença para iniciar o próprio negócio ,
+,,,,,10,Tomou outra providência,
+,,,,,11,Não tomou providência efetiva,
+,,,,,,Não aplicável,
+367,1,V4072A,72A,"No período de ... a ... (período de referência de 30 dias), qual foi a principal providência que ... tomou para conseguir trabalho?",1,"Entrou em contato com empregador (pessoalmente, por telefone, por email ou pelo portal da empresa, inclusive enviando currículo)",4º tri/2015 - atual
+,,,,,2,Colocou ou respondeu anúncio de trabalho em jornal ou revista,
+,,,,,3,Consultou ou inscreveu-se em agência de emprego privada ou sindicato,
+,,,,,4,"Consultou ou inscreveu-se em agência de emprego municipal, estadual ou no Sistema Nacional de Emprego (SINE) ",
+,,,,,5,Fez ou inscreveu-se em concurso ,
+,,,,,6,"Consultou parente, amigo ou colega",
+,,,,,7,"Tomou medida para iniciar o próprio negócio (recursos financeiros, local para instalação, equipamentos, legalização etc.) ",
+,,,,,8,"Tomou outra providência, especifique: ",
+,,,,,9,Não tomou providência efetiva,
+,,,,,,Não aplicável,
+368,1,V4073,73,"Embora não tenha tomado providência para conseguir trabalho, gostaria de ter trabalhado na semana de ... a ... (semana de referência) ?",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+369,1,V4074,74,Qual foi o principal motivo de ... não ter tomado providência para conseguir trabalho no período de  ... a ... (período de referência de 30 dias)?,1,Conseguiu proposta de trabalho para começar após a semana de referência ,1º tri/2012 - 3º tri/2015
+,,,,,2,Aguardando resposta de medida tomada para conseguir trabalho,
+,,,,,3,Desistiu de procurar por não conseguir encontrar trabalho,
+,,,,,4,Acha que não vai encontrar trabalho por ser muito jovem ou muito idoso,
+,,,,,5,"Tinha que cuidar de filho(s), de outro(s) dependente(s) ou dos afazeres domésticos",
+,,,,,6,Estudo,
+,,,,,7,"Incapacidade física, mental ou doença permanente",
+,,,,,8,Outro motivo,
+,,,,,,Não aplicável,
+370,2,V4074A,74A,Qual foi o principal motivo de ... não ter tomado providência para conseguir trabalho no período de  ... a ... (período de referência de 30 dias)?,01,Conseguiu proposta de trabalho para começar após a semana de referência ,4º tri/2015 - atual
+,,,,,02,Estava aguardando resposta de medida tomada para conseguir trabalho ,
+,,,,,03,Não conseguia trabalho adequado,
+,,,,,04,Não tinha experiência profissional ou qualificação,
+,,,,,05,Não conseguia trabalho por ser considerado muito jovem ou muito idoso,
+,,,,,06,Não havia trabalho na localidade,
+,,,,,07,"Tinha que cuidar dos afazeres domésticos, do(s) filho(s) ou de outro(s) parente(s) ",
+,,,,,08,Estava estudando (curso de qualquer tipo ou por conta própria),
+,,,,,09,Por problema de saúde ou gravidez ,
+,,,,,10,"Outro motivo, especifique",
+,,,,,,Não aplicável,
+372,1,V4075A,75A,Quanto tempo depois de ... (último dia da semana de referência) irá começar esse trabalho que conseguiu?,1,Menos de 1 mês ,2º tri/2016 - atual
+,,,,,2,De 1 mês a menos de 1 ano ,
+,,,,,3,1 ano ou mais,
+,,,,,,Não aplicável,
+373,2,V4075A1,75A,Número de meses para começar o trabalho que conseguiu,01 a 11,01 a 11 meses ,2º tri/2016 - atual
+,,,,,,Não aplicável,
+375,1,V4076,76,"Até o dia ... (último dia da semana de referência), fazia quanto tempo que ... estava sem qualquer trabalho e tentando conseguir trabalho?",1,Menos de 1 mês ,1º tri/2012 - atual
+,,,,,2,De 1 mês a menos de 1 ano,
+,,,,,3,De 1 ano a menos de 2 anos,
+,,,,,4,2 anos ou mais,
+,,,,,,Não aplicável,
+376,2,V40761,76,fazia quanto tempo que vinha procurando trabalho (de 1 mês a menos de 1 ano), 01 a 11,01 a 11 meses ,1º tri/2012 - atual
+,,,,,,Não aplicável,
+378,2,V40762,76,fazia quanto tempo que vinha procurando trabalho (de 1 ano a menos de 2 anos), 01 a 11,01 a 11 meses ,1º tri/2012 - atual
+,,,,,,Não aplicável,
+380,2,V40763,76,fazia quanto tempo vinha procurando trabalho (2 anos ou mais),02 a 98,2 anos ou mais ,1º tri/2012 - atual
+,,,,,,Não aplicável,
+382,1,V4077,77,"Se tivesse conseguido um trabalho, ... poderia ter começado a trabalhar na semana de ... a ... (semana de referência)? ",1,Sim,1º tri/2012 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+383,1,V4078,78,Qual foi o principal motivo para ... não querer(poder começar a) trabalhar na semana de  ... a ... (semana de referência)?,1,"Tinha que cuidar de filho(s), de outro(s) dependente(s) ou dos afazeres domésticos ",1º tri/2012 - 3º tri/2015
+,,,,,2,Estudo,
+,,,,,3,"Incapacidade física, mental ou doença permanente",
+,,,,,4,Aposentado ou idoso para trabalhar,
+,,,,,5,Muito jovem para trabalhar,
+,,,,,6,Não desejava trabalhar,
+,,,,,7,Outro motivo,
+,,,,,,Não aplicável,
+384,1,V4078A,78A,Qual foi o principal motivo para ... não querer(poder começar a) trabalhar na semana de  ... a ... (semana de referência)?,1,"Tinha que cuidar dos afazeres domésticos, do(s) filho(s) ou de outro(s) parente(s) ",4º tri/2015 - atual
+,,,,,2,Estava estudando (em curso de qualquer tipo ou por conta própria),
+,,,,,3,Por problema de saúde ou gravidez ,
+,,,,,4,Por ser muito jovem ou muito idoso para trabalhar,
+,,,,,5,Por não querer trabalhar,
+,,,,,6,"Outro motivo, especifique: ",
+,,,,,,Não aplicável,
+385,1,V4082,82,"No período de captação de 358 dias, ... trabalhou por pelo menos 1 hora? ",1,Sim,4º tri/2016 - atual
+,,,,,2,Não,
+,,,,,,Não aplicável,
+Variáveis Derivadas,,,,,,,
+386,2,VD2002,,Condição no domicílio,01,Pessoa responsável,1º tri/2012 - atual
+,,,,,02,Cônjuge ou companheiro(a),
+,,,,,03,Filho(a),
+,,,,,04,Enteado(a),
+,,,,,05,Genro ou nora,
+,,,,,06,"Pai, mãe, padrasto ou madrasta",
+,,,,,07,Sogro(a),
+,,,,,08,Neto(a),
+,,,,,09,Bisneto(a),
+,,,,,10,Irmão ou irmã,
+,,,,,11,Avô ou avó,
+,,,,,12,Outro parente,
+,,,,,13,Agregado(a),
+,,,,,14,Convivente,
+,,,,,15,Pensionista,
+,,,,,16,Empregado(a) doméstico(a),
+,,,,,17,Parente do(a) empregado(a) doméstico(a),
+388,2,VD2003,,"Número de componentes do domicílio (exclusive as pessoas cuja condição no domicílio era pensionista, empregado doméstico ou parente do empregado doméstico)",01 a 30,Pessoa(s),1º tri/2012 - atual
+390,1,VD2004,,Espécie da unidade doméstica,1,Unipessoal,1º tri/2012 - atual
+,,,,,2,Nuclear ,
+,,,,,3,Estendida,
+,,,,,4,Composta,
+391,1,VD3004,,Nível de instrução mais elevado alcançado (pessoas de 5 anos ou mais de idade) padronizado para o Ensino fundamental -  SISTEMA DE 9 ANOS,1,Sem instrução e menos de 1 ano de estudo,1º tri/2012 - atual
+,,,,,2,Fundamental incompleto ou equivalente,
+,,,,,3,Fundamental completo ou equivalente,
+,,,,,4,Médio incompleto ou equivalente,
+,,,,,5,Médio completo ou equivalente,
+,,,,,6,Superior incompleto ou equivalente,
+,,,,,7,Superior completo ,
+,,,,,,Não aplicável,
+392,2,VD3005,,Anos de estudo (pessoas de 5 anos ou mais de idade) padronizado para o Ensino fundamental - SISTEMA DE 9 ANOS,00,Sem instrução e menos de 1 ano de estudo,1º tri/2012 - atual
+,,,,,01,1 ano de estudo,
+,,,,,02,2 anos de estudo,
+,,,,,03,3 anos de estudo,
+,,,,,04,4 anos de estudo,
+,,,,,05,5 anos de estudo,
+,,,,,06,6 anos de estudo,
+,,,,,07,7 anos de estudo,
+,,,,,08,8 anos de estudo,
+,,,,,09,9 anos de estudo,
+,,,,,10,10 anos de estudo,
+,,,,,11,11 anos de estudo,
+,,,,,12,12 anos de estudo,
+,,,,,13,13 anos de estudo,
+,,,,,14,14 anos de estudo,
+,,,,,15,15 anos de estudo,
+,,,,,16,16 anos ou mais de estudo,
+,,,,,,Não aplicável,
+394,1,VD3006,,Grupos de anos de estudo (pessoas de 5 anos ou mais de idade) padronizado para o Ensino fundamental  - SISTEMA DE 9 ANOS,1,Sem instrução e menos de 1 ano de estudo,1º tri/2012 - atual
+,,,,,2,1 a 4 anos de estudo,
+,,,,,3,5 a 8 anos de estudo,
+,,,,,4,9 a 11 anos de estudo,
+,,,,,5,12 a 15 anos de estudo,
+,,,,,6,16 anos ou mais de estudo,
+,,,,,,Não aplicável,
+395,1,VD4001,,Condição em relação à força de trabalho na semana de referência para pessoas de 14 anos ou mais de idade,1,Pessoas na força de trabalho,1º tri/2012 - atual
+,,,,,2,Pessoas fora da força de trabalho,
+,,,,,,Não aplicável,
+396,1,VD4002,,Condição de ocupação na semana de referência para pessoas de 14 anos ou mais de idade,1,Pessoas ocupadas ,1º tri/2012 - atual
+,,,,,2,Pessoas desocupadas ,
+,,,,,,Não aplicável,
+397,1,VD4003,,Força de trabalho potencial para pessoas de 14 anos ou mais de idade,1,Pessoas fora da força de trabalho e na força de trabalho potencial,1º tri/2012 - atual
+,,,,,2,Pessoas fora da força de trabalho e fora da força de trabalho potencial,
+,,,,,,Não aplicável,
+398,1,VD4004,,Subocupação por insuficiência de horas efetivamente trabalhadas em todos os trabalhos,1,Pessoas subocupadas,1º tri/2012 - 3º tri/2015
+,,,,,,Não aplicável,
+399,1,VD4004A,,Subocupação por insuficiência de horas habitualmente trabalhadas em todos os trabalhos,1,Pessoas subocupadas,4º tri/2015 - atual
+,,,,,,Não aplicável,
+400,1,VD4005,,Pessoas desalentadas na semana de referência,1,Pessoas desalentadas,1º tri/2012 - atual
+,,,,,,Não aplicável,
+401,1,VD4007,,Posição na ocupação no trabalho principal da semana de referência para pessoas de 14 anos ou mais de idade,1,Empregado (inclusive trabalhador doméstico),1º tri/2012 - atual
+,,,,,2,Empregador,
+,,,,,3,Conta própria,
+,,,,,4,Trabalhador familiar auxiliar,
+,,,,,,Não aplicável,
+402,1,VD4008,,Posição na ocupação no trabalho principal da semana de referência para pessoas de 14 anos ou mais de idade (com subcategorias de empregados),1,Empregado no setor privado,1º tri/2012 - atual
+,,,,,2,Trabalhador doméstico,
+,,,,,3,Empregado no setor público (inclusive servidor estatutário e militar),
+,,,,,4,Empregador,
+,,,,,5,Conta-própria,
+,,,,,6,Trabalhador familiar auxiliar,
+,,,,,,Não aplicável,
+403,2,VD4009,,Posição na ocupação e categoria do emprego do trabalho principal da semana de referência para pessoas de 14 anos ou mais de idade,01,Empregado no setor privado com carteira de trabalho assinada,1º tri/2012 - atual
+,,,,,02,Empregado no setor privado sem carteira de trabalho assinada,
+,,,,,03,Trabalhador doméstico com carteira de trabalho assinada,
+,,,,,04,Trabalhador doméstico sem carteira de trabalho assinada,
+,,,,,05,Empregado no setor público com carteira de trabalho assinada,
+,,,,,06,Empregado no setor público sem carteira de trabalho assinada,
+,,,,,07,Militar e servidor estatutário,
+,,,,,08,Empregador,
+,,,,,09,Conta-própria,
+,,,,,10,Trabalhador familiar auxiliar,
+,,,,,,Não aplicável,
+405,2,VD4010,,Grupamentos de atividade principal do empreendimento do trabalho principal da semana de referência para pessoas de 14 anos ou mais de idade,01,"Agricultura, pecuária, produção florestal, pesca e aquicultura ",1º tri/2012 - atual
+,,,,,02,Indústria geral,
+,,,,,03,Construção,
+,,,,,04,"Comércio, reparação de veículos automotores e motocicletas",
+,,,,,05,"Transporte, armazenagem e correio ",
+,,,,,06,Alojamento e alimentação ,
+,,,,,07,"Informação, comunicação e atividades financeiras, imobiliárias, profissionais e administrativas",
+,,,,,08,"Administração pública, defesa e seguridade social ",
+,,,,,09,"Educação, saúde humana e serviços sociais",
+,,,,,10,Outros Serviços,
+,,,,,11,Serviços domésticos,
+,,,,,12,Atividades mal definidas,
+,,,,,,Não aplicável,
+407,2,VD4011,,Grupamentos ocupacionais do trabalho principal da semana de referência para pessoas de 14 anos ou mais de idade,01,Diretores e gerentes,1º tri/2012 - atual
+,,,,,02,Profissionais das ciências e intelectuais,
+,,,,,03,Técnicos e profissionais de nível médio,
+,,,,,04,Trabalhadores de apoio administrativo,
+,,,,,05,"Trabalhadores dos serviços, vendedores dos comércios e mercados",
+,,,,,06,"Trabalhadores qualificados da agropecuária, florestais, da caça e da pesca",
+,,,,,07,"Trabalhadores qualificados, operários e artesões da construção, das artes mecânicas e outros ofícios",
+,,,,,08,Operadores de instalações e máquinas e montadores,
+,,,,,09,Ocupações elementares,
+,,,,,10,"Membros das forças armadas, policiais e bombeiros militares",
+,,,,,11,Ocupações maldefinidas ,
+,,,,,,Não aplicável,
+409,1,VD4012,,Contribuição para instituto de previdência em qualquer trabalho da semana de referência para pessoas de 14 anos ou mais de idade,1,Contribuinte,1º tri/2012 - atual
+,,,,,2,Não contribuinte,
+,,,,,,Não aplicável,
+410,1,VD4013,,Faixa das horas habitualmente trabalhadas por semana em todos os trabalhos para pessoas de 14 anos ou mais de idade,1,Até 14 horas,1º tri/2012 - atual
+,,,,,2,15 a 39 horas,
+,,,,,3,40 a 44 horas,
+,,,,,4,45 a 48 horas,
+,,,,,5,49 horas ou mais,
+,,,,,,Não aplicável,
+411,1,VD4014,,Faixa das horas efetivamente trabalhadas na semana de referência em todos os trabalhos  para pessoas de 14 anos ou mais de idade,1,Até 14 horas,1º tri/2012 - atual
+,,,,,2,15 a 39 horas,
+,,,,,3,40 a 44 horas,
+,,,,,4,45 a 48 horas,
+,,,,,5,49 horas ou mais,
+,,,,,,Não aplicável,
+412,1,VD4015,,Tipo de remuneração habitualmente recebida no trabalho principal para pessoas de 14 anos ou mais de idade,1,"Remuneração em dinheiro, produtos ou mercadorias no trabalho principal",1º tri/2012 - atual
+,,,,,2,Remuneração em benefícios ou sem remuneração no trabalho principal,
+,,,,,,Não aplicável,
+413,8,VD4016,,"Rendimento mensal habitual do trabalho principal para pessoas de 14 anos ou mais de idade (apenas para pessoas que receberam em dinheiro, produtos ou mercadorias no trabalho principal)",Valor,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+421,8,VD4017,,"Rendimento mensal efetivo do trabalho principal para pessoas de 14 anos ou mais de idade (apenas para pessoas que receberam em dinheiro, produtos ou mercadorias no trabalho principal)",Valor,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+429,1,VD4018,,Tipo de remuneração habitualmente recebida em todos os trabalhos para pessoas de 14 anos ou mais de idade,1,"Remuneração em dinheiro, produtos ou mercadorias em pelo menos um dos trabalhos",1º tri/2012 - atual
+,,,,,2,Remuneração em benefícios ou sem remuneração em todos os trabalhos,
+,,,,,,Não aplicável,
+430,8,VD4019,,"Rendimento mensal habitual de todos os trabalhos para pessoas de 14 anos ou mais de idade (apenas para pessoas que receberam em dinheiro, produtos ou mercadorias em qualquer trabalho)",Valor,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+438,8,VD4020,,"Rendimento mensal efetivo de todos os trabalhos para pessoas de 14 anos ou mais de idade (apenas para pessoas que receberam em dinheiro, produtos ou mercadorias em qualquer trabalho)",Valor,R$,1º tri/2012 - atual
+,,,,,,Não aplicável,
+446,1,VD4023,,Motivo pelo qual não procurou trabalho ou não gostaria de ter trabalhado ou não estava disponível para iniciar um trabalho,1,"Tinha que cuidar dos afazeres domésticos, do(s) filho(s) ou de outro(s) dependente(s)",1º tri/2012 - 3º tri/2015
+,,,,,2,Estava estudando,
+,,,,,3,"Por incapacidade física, mental ou doença permanente",
+,,,,,4,Por ser muito jovem ou muito idoso para trabalhar,
+,,,,,5,Por não querer trabalhar,
+,,,,,6,Por outro motivo,
+,,,,,,Não aplicável,
+447,1,VD4030,,Motivo pelo qual não procurou trabalho ou não gostaria de ter trabalhado ou não estava disponível para iniciar um trabalho,1,"Tinha que cuidar dos afazeres domésticos, do(s) filho(s) ou de outro(s) parente(s)",4º tri/2015 - atual
+,,,,,2,Estava estudando,
+,,,,,3,Por problema de saúde ou gravidez,
+,,,,,4,Por ser muito jovem ou muito idoso para trabalhar,
+,,,,,5,Por não querer trabalhar,
+,,,,,6,Por outro motivo,
+,,,,,,Não aplicável,
+448,3,VD4031,,Horas habitualmente trabalhadas por semana em todos os trabalhos para pessoas de 14 anos ou mais de idade,1 a 120,,1º tri/2012 - atual
+,,,,,,Não se aplica,
+451,3,VD4032,,Horas efetivamente trabalhadas na semana de referência no trabalho principal para pessoas de 14 anos ou mais de idade,0 a 120,,1º tri/2012 - 3º tri/2015
+,,,,,,Não se aplica,
+454,3,VD4033,,Horas efetivamente trabalhadas na semana de referência no trabalho secundário para pessoas de 14 anos ou mais de idade,0 a 120,,1º tri/2012 - 3º tri/2015
+,,,,,,Não se aplica,
+457,3,VD4034,,Horas efetivamente trabalhadas na semana de referência nos outros trabalhos para pessoas de 14 anos ou mais de idade,0 a 120,,1º tri/2012 - 3º tri/2015
+,,,,,,Não se aplica,
+460,3,VD4035,,Horas efetivamente trabalhadas na semana de referência em todos os trabalhos para pessoas de 14 anos ou mais de idade,0 a 120,,1º tri/2012 - atual
+,,,,,,Não se aplica,
+463,1,VD4036,,Faixa das horas habitualmente trabalhadas por semana no trabalho principal para pessoas de 14 anos ou mais de idade,1,Até 14 horas,1º tri/2012 - atual
+,,,,,2,15 a 39 horas,
+,,,,,3,40 a 44 horas,
+,,,,,4,45 a 48 horas,
+,,,,,5,49 horas ou mais,
+,,,,,,Não aplicável,
+464,1,VD4037,,Faixa das horas efetivamente trabalhadas na semana de referência no trabalho principal  para pessoas de 14 anos ou mais de idade,1,Até 14 horas,1º tri/2012 - atual
+,,,,,2,15 a 39 horas,
+,,,,,3,40 a 44 horas,
+,,,,,4,45 a 48 horas,
+,,,,,5,49 horas ou mais,
+,,,,,,Não aplicável,
