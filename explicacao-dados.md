@@ -12,3 +12,19 @@
 12. OpCine: opinião a respeito das salas de cinema na cidade: (B) regular a boa e (M) muito boa
 13. TV: horas gastas assistindo TV, por semana
 14. OpTV: opinião a respeito da qualidade da programação na TV: (R) ruim, (M) média,(B) boa e (N) não sabe
+
+
+#### Análises
+- Turma: gráfico de setores
+- Sexo: gráfico de setores
+- Idade: dotplot
+- Altura: histograma(de 10 em 10)
+- Peso: tabela (f. densi, f. acumulada)
+- Filhos: dot-plot
+- Fuma: gráfico de setores
+- Toler: barra
+- Exer: tabela
+- Cine: box-plot
+- OpCine: barra
+- TV: box-plot
+- OpTv: barra
