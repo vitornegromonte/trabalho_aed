@@ -133,3 +133,138 @@ ggplot(massa_dados) +
  coord_flip() +
  theme_linedraw()
 
+
+# Variáveis quantitativas #
+## Variável idade ##
+### Vertical ###
+library(ggplot2)
+ggplot(massa_dados) +
+ aes(x = Idade) +
+ geom_histogram(bins = 35L, fill = "#E45C5C") +
+ labs(x = "Idades", 
+ y = "Quantitade ", title = "Distribuição dos indivíduos de acordo com a idade", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ theme_linedraw()
+### Horizontal ###
+ggplot(massa_dados) +
+ aes(x = Idade) +
+ geom_histogram(bins = 35L, fill = "#E45C5C") +
+ labs(x = "Idades", 
+ y = "Quantitade ", title = "Distribuição dos indivíduos de acordo com a idade", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ coord_flip() +
+ theme_linedraw()
+
+## Variável altura ##
+### Vertical ###
+library(ggplot2)
+ggplot(massa_dados) +
+ aes(x = Alt) +
+ geom_histogram(bins = 30L, fill = "#E45C5C") +
+ labs(x = "Altura", 
+ y = "Quantidade", title = "Distribuição dos indivíduos quanto a sua altura", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ theme_linedraw()
+### Horizontal ###
+ggplot(massa_dados) +
+ aes(x = Alt) +
+ geom_histogram(bins = 30L, fill = "#E45C5C") +
+ labs(x = "Altura", 
+ y = "Quantidade", title = "Distribuição dos indivíduos quanto a sua altura", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ coord_flip() +
+ theme_linedraw()
+
+## Variável peso ##
+### Vertical ###
+library(ggplot2)
+ggplot(massa_dados) +
+ aes(x = Peso) +
+ geom_histogram(bins = 30L, fill = "#E45C5C") +
+ labs(x = "Peso", 
+ y = "Quantidade", title = "Distribuição dos indivíduos quanto ao peso", subtitle = "Legenda", 
+ caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ theme_linedraw()
+## Horizontal ##
+ggplot(massa_dados) +
+ aes(x = Peso) +
+ geom_histogram(bins = 30L, fill = "#E45C5C") +
+ labs(x = "Peso", 
+ y = "Quantidade", title = "Distribuição dos indivíduos quanto ao peso", subtitle = "Legenda", 
+ caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ coord_flip() +
+ theme_linedraw()
+
+## Filhos ##
+### Vertical ###
+library(ggplot2)
+ggplot(massa_dados) +
+ aes(x = Filhos) +
+ geom_histogram(bins = 30L, fill = "#112446") +
+ labs(x = "X", 
+ y = "Y", title = "Distribuição dos indivídus quanto ao número de filhos", subtitle = "Legenda", 
+ caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ theme_linedraw()
+### Horizontal ###
+ggplot(massa_dados) +
+ aes(x = Filhos) +
+ geom_histogram(bins = 30L, fill = "#112446") +
+ labs(x = "X", 
+ y = "Y", title = "Distribuição dos indivídus quanto ao número de filhos", subtitle = "Legenda", 
+ caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ coord_flip() +
+ theme_linedraw()
+
+## Exercicios ##
+### Vertical ###
+library(ggplot2)
+ggplot(massa_dados) +
+ aes(x = Exer) +
+ geom_histogram(bins = 30L, fill = "#112446") +
+ labs(x = "Quantidade de horas", 
+ y = "Volume de pessoas", title = "Distribuição dos indivíduos de acordo as horas dedicadas aos exercícios físicos, por semana", 
+ subtitle = "Legenda", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ theme_linedraw()
+### Horizontal ###
+ggplot(massa_dados) +
+ aes(x = Exer) +
+ geom_histogram(bins = 30L, fill = "#112446") +
+ labs(x = "Quantidade de horas", 
+ y = "Volume de pessoas", title = "Distribuição dos indivíduos de acordo as horas dedicadas aos exercícios físicos, por semana", 
+ subtitle = "Legenda", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ coord_flip() +
+ theme_linedraw()
+
+## Cinema ##
+### Vertical ###
+library(ggplot2)
+ggplot(massa_dados) +
+ aes(x = Cine) +
+ geom_histogram(bins = 30L, fill = "#112446") +
+ labs(x = "Horas", 
+ y = "Volume de pessoas", title = "Horas semanais no cinema", subtitle = "Legenda", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ theme_linedraw()
+### Horizontal ###
+ggplot(massa_dados) +
+ aes(x = Cine) +
+ geom_histogram(bins = 30L, fill = "#112446") +
+ labs(x = "Horas", 
+ y = "Volume de pessoas", title = "Horas semanais no cinema", subtitle = "Legenda", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ coord_flip() +
+ theme_linedraw()
+
+## Televisão ##
+### Vertical ###
+ggplot(massa_dados) +
+ aes(x = TV) +
+ geom_histogram(bins = 30L, fill = "#112446") +
+ labs(x = "Horas", 
+ y = "Volume de pessoas", title = "Horas semanais assistindo televisão", subtitle = "Legenda", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ theme_linedraw()
+### Horizontal ###
+ggplot(massa_dados) +
+ aes(x = TV) +
+ geom_histogram(bins = 30L, fill = "#112446") +
+ labs(x = "Horas", 
+ y = "Volume de pessoas", title = "Horas semanais assistindo televisão", subtitle = "Legenda", caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
+ coord_flip() +
+ theme_linedraw()
+
+
+
