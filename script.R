@@ -42,7 +42,8 @@ TV = as.numeric(massa_dados$TV)
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Turma) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(
  x = "Turma",
  y = "Contagem", 
@@ -55,7 +56,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Turma) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(
  x = "Turma",
  y = "Contagem", 
@@ -71,7 +73,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Sexo) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(
  x = "Sexo",
  y = "Quantidade",
@@ -84,7 +87,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Sexo) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(x = "Sexo", y = "Quantidade", 
  title = "Distribuição de pessoas por sexo",
  subtitle = "",
@@ -98,7 +102,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Fuma) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(
  x = "Hábito de fumar",
  y = "Quantidade", 
@@ -111,7 +116,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Fuma) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(
  x = "Hábito de fumar",
  y = "Quantidade", 
@@ -126,7 +132,8 @@ ggplot(massa_dados) +
 ### Vertical ###
 ggplot(massa_dados) +
  aes(x = Tolerancia) +
- geom_bar(fill = "#112446") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(x = "Tolerância ", y = "Quantidade", 
  title = "Histograma da variável tolerância ao fumo",
  subtitle = "I: indiferente; P: incomoda pouco; M: incomoda muito", 
@@ -136,7 +143,8 @@ ggplot(massa_dados) +
 ### Horizontal ###
 ggplot(massa_dados) +
  aes(x = Tolerancia) +
- geom_bar(fill = "#112446") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(
  x = "Tolerância ", y = "Quantidade", 
  title = "Histograma da variável tolerância ao fumo",
@@ -151,7 +159,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = OpCine) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(x = "Opinião a respeito das salas de cinema na cidade", 
  y = "Quantidade",
  title = "Gráfico da opinião dos indivíduos a respeito das salas de cinema na cidade",
@@ -163,7 +172,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = OpCine) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(
  x = "Opinião a respeito das salas de cinema na cidade", 
  y = "Quantidade",
@@ -179,7 +189,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = OpTV) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(
  x = "Opinião a respeito da qualidade da programação na TV", 
  y = "Quantidade",
@@ -192,7 +203,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = OpTV) +
- geom_bar(fill = "#E45C5C") +
+ geom_bar(
+ fill = "#E45C5C") +
  labs(
  x = "Opinião a respeito da qualidade da programação na TV", 
  y = "Quantidade",
@@ -210,7 +222,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Idade) +
- geom_histogram(bins = 35L, fill = "#E45C5C") +
+ geom_histogram(bins = 35L,
+ fill = "#E45C5C") +
  labs(
  x = "Idades", 
  y = "Quantitade ",
@@ -222,7 +235,8 @@ ggplot(massa_dados) +
 ### Horizontal ###
 ggplot(massa_dados) +
  aes(x = Idade) +
- geom_histogram(bins = 35L, fill = "#E45C5C") +
+ geom_histogram(bins = 35L, 
+ fill = "#E45C5C") +
  labs(
  x = "Idades", 
  y = "Quantitade ",
@@ -238,7 +252,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Alt) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "Altura", 
  y = "Quantidade",
@@ -250,7 +265,8 @@ ggplot(massa_dados) +
 ### Horizontal ###
 ggplot(massa_dados) +
  aes(x = Alt) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "Altura", 
  y = "Quantidade",
@@ -266,7 +282,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Peso) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "Peso", 
  y = "Quantidade",
@@ -278,7 +295,8 @@ ggplot(massa_dados) +
 ## Horizontal ##
 ggplot(massa_dados) +
  aes(x = Peso) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "Peso", 
  y = "Quantidade",
@@ -294,7 +312,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Filhos) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "X", 
  y = "Y",
@@ -306,7 +325,8 @@ ggplot(massa_dados) +
 ### Horizontal ###
 ggplot(massa_dados) +
  aes(x = Filhos) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "X", 
  y = "Y",
@@ -322,7 +342,8 @@ ggplot(massa_dados) +
 library(ggplot2)
 ggplot(massa_dados) +
  aes(x = Exer) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "Quantidade de horas", 
  y = "Volume de pessoas",
@@ -334,7 +355,7 @@ ggplot(massa_dados) +
 ### Horizontal ###
 ggplot(massa_dados) +
  aes(x = Exer) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ fill = "#E45C5C") +
  labs(
  x = "Quantidade de horas", 
  y = "Volume de pessoas",
@@ -362,7 +383,8 @@ ggplot(massa_dados) +
 ### Horizontal ###
 ggplot(massa_dados) +
  aes(x = Cine) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "Horas", 
  y = "Volume de pessoas",
@@ -377,7 +399,8 @@ ggplot(massa_dados) +
 ### Vertical ###
 ggplot(massa_dados) +
  aes(x = TV) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "Horas", 
  y = "Volume de pessoas",
@@ -389,7 +412,8 @@ ggplot(massa_dados) +
 ### Horizontal ###
 ggplot(massa_dados) +
  aes(x = TV) +
- geom_histogram(bins = 30L, fill = "#E45C5C") +
+ geom_histogram(bins = 30L,
+ fill = "#E45C5C") +
  labs(
  x = "Horas", 
  y = "Volume de pessoas",
