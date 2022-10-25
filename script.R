@@ -14,7 +14,7 @@ library(data.table)
 library(outliers)
 
 ## Chamando o arquivo e disponibilizando no R ##
-massa_dados = read.xlsx('~/dados/massa_de_dados.xlsx')
+massa_dados = read.xlsx('/home/vitor/Development/trabalho_aed/dados/massa_de_dados.xlsx')
 
 ### Categorizando variáveis ###
 
@@ -47,7 +47,7 @@ ggplot(massa_dados) +
  labs(
  x = "Turma",
  y = "Contagem", 
- title = "Distribuição dos alunos nas turmas A e B",
+ title = "Gráfico de barras da variável turma",
  subtitle = "",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  theme_linedraw()
@@ -61,8 +61,8 @@ ggplot(massa_dados) +
  labs(
  x = "Turma",
  y = "Contagem", 
- title = "Distribuição dos alunos nas turmas A e B",
- subtitle = "",
+ title = "Gráfico de barras da variável turma",
+ subtitle = "A: Turma A; B: Turma B",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  coord_flip() +
  theme_linedraw()
@@ -78,8 +78,8 @@ ggplot(massa_dados) +
  labs(
  x = "Sexo",
  y = "Quantidade",
- title = "Distribuição de pessoas por sexo",
- subtitle = "",
+ title = "Gráfico de barras da variável sexo",
+ subtitle = "F: Feminino; M: Masculino",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  theme_linedraw()
 
@@ -90,8 +90,8 @@ ggplot(massa_dados) +
  geom_bar(
  fill = "#E45C5C") +
  labs(x = "Sexo", y = "Quantidade", 
- title = "Distribuição de pessoas por sexo",
- subtitle = "",
+ title = "Gráfico de barras da variável sexo",
+ subtitle = "F: Feminino; M: Masculino",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  coord_flip() +
  theme_linedraw()
@@ -107,7 +107,7 @@ ggplot(massa_dados) +
  labs(
  x = "Hábito de fumar",
  y = "Quantidade", 
- title = "Distribuição do indivíduos que possuem ou não o hábito de fumar",
+ title = "Gráfico de barras da variável fumar",
  subtitle = "",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  theme_linedraw()
@@ -121,7 +121,7 @@ ggplot(massa_dados) +
  labs(
  x = "Hábito de fumar",
  y = "Quantidade", 
- title = "Distribuição do indivíduos que possuem ou não o hábito de fumar",
+ title = "Gráfico de barras da variável fumar",
  subtitle = "",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  coord_flip() +
@@ -163,7 +163,7 @@ ggplot(massa_dados) +
  fill = "#E45C5C") +
  labs(x = "Opinião a respeito das salas de cinema na cidade", 
  y = "Quantidade",
- title = "Gráfico da opinião dos indivíduos a respeito das salas de cinema na cidade",
+ title = "Gráfico de barras da variável OpCine",
  subtitle = "",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  theme_linedraw()
@@ -177,7 +177,7 @@ ggplot(massa_dados) +
  labs(
  x = "Opinião a respeito das salas de cinema na cidade", 
  y = "Quantidade",
- title = "Gráfico da opinião dos indivíduos a respeito das salas de cinema na cidade",
+ title = "Gráfico de barras da variável OpCine",
  subtitle = "",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  coord_flip() +
@@ -348,7 +348,7 @@ ggplot(massa_dados) +
  x = "Quantidade de horas", 
  y = "Volume de pessoas",
  title = "Histograma da variável exercícios", 
- subtitle = "Legenda",
+ subtitle = "",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  theme_linedraw()
 
@@ -405,7 +405,7 @@ ggplot(massa_dados) +
  x = "Horas", 
  y = "Volume de pessoas",
  title = "Histograma da variável televisão",
- subtitle = "Legenda",
+ subtitle = "",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  theme_linedraw()
 
@@ -418,7 +418,7 @@ ggplot(massa_dados) +
  x = "Horas", 
  y = "Volume de pessoas",
  title = "Histograma da variável televisão",
- subtitle = "Legenda",
+ subtitle = "",
  caption = "Fonte: Tabela 1.1, Magalhães, M,N, Lima, A.C.P. (2004). Noções de Probabilidade e Estatística. 6a edição, revisada., São Paulo: EDUSP.") +
  coord_flip() +
  theme_linedraw()
